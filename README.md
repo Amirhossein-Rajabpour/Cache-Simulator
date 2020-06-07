@@ -93,3 +93,6 @@ TRAFFIC (in words)
 demand fetch: 8
 copies back: 0
 ```
+
+Full description [here](https://github.com/amirhoseinRj/Cache_simulator/blob/master/Cache.pdf).
+
