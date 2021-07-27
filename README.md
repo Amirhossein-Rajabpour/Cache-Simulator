@@ -10,14 +10,14 @@ This project is a cache simulator with LRU replacement policy.
 <cache(s) size>
 <request type> <address> <optional description - will be ignored>
 ```
-\<block size>: Should be in power of 2<br>
-\<architecture>: 0 for von Neumann (unified I-D cache) - 1 for Harvard (split I-D cache)<br>
-\<associativity>: Should be in power of 2<br>
-\<write hit policy>: wt for Write Through - wb for Write Back<br>
-\<write miss policy>: wa for Write Allocate - nw for No Write Allocate (Write Around)<br>
-\<cache(s) size>: Should be in power of 2. Separated by - in case of Harvard architecture<br>
+`<block size>`: Should be in power of 2<br>
+`<architecture>`: 0 for von Neumann (unified I-D cache) - 1 for Harvard (split I-D cache)<br>
+`<associativity>`: Should be in power of 2<br>
+`<write hit policy>`: wt for Write Through - wb for Write Back<br>
+`<write miss policy>`: wa for Write Allocate - nw for No Write Allocate (Write Around)<br>
+`<cache(s) size>`: Should be in power of 2. Separated by - in case of Harvard architecture<br>
 
-\<request type>:
+`<request type>`:
 <table>
 <thead>
   <tr>
